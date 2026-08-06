@@ -33,6 +33,10 @@ cp -r haram-guard/skills/haram-guard ~/.claude/skills/
 Then paste the block from [AGENTS.md](./AGENTS.md) into `~/.claude/CLAUDE.md`, edited to
 your own line. `~/.claude/` covers every project on the machine.
 
+**Restart Claude Code after installing or updating.** Skills are read when the session
+starts, so a running session keeps serving the old copy. Verified the hard way: the file
+on disk was current and the session was still using the previous version.
+
 **Codex, Cursor, anything reading AGENTS.md**
 
 Paste the same block into your project's `AGENTS.md`. It links to GUIDE.md so the agent
