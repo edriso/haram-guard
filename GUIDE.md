@@ -12,6 +12,10 @@ Otherwise stay quiet and do the work. Hold a real bar: a price field is not inte
 jewelry shop is not a finance product, a photo of a ring is not immodest imagery. False
 alarms are the one way a check like this stops being read.
 
+What decides is what the customer ends up seeing, not how the ticket is worded. A task can
+arrive as a bug report, a fallback, an empty state or a display rule and still be the
+category, so read the request for its effect rather than its title.
+
 ## The test
 
 > **Does this fall in one of the categories?**
@@ -33,7 +37,7 @@ user, and that is how it makes money", look closer even when no category matched
 | **Riba** | Interest, APR, lending, credit, financing, late fees acting as interest | Debt traps |
 | **Maysir** | Gambling, betting, prize wheels, loot boxes, paid chance | Addiction, engineered to return less than it takes |
 | **Gharar** | What the buyer cannot see clearly: hidden fees, buried auto-renewal, dark patterns | People agree to what they were prevented from understanding |
-| **Ghish** | Fake reviews, fake scarcity, misleading claims or imagery | Fraud |
+| **Ghish** | Fake reviews, fake scarcity, misleading claims or imagery. Also real content misused: a review or rating hidden, or shown for a subject it does not rate | Fraud, including by omission |
 | **Khamr** | Alcohol, tobacco, intoxicants: storefronts, ads, delivery, age-gate bypasses | Documented at length |
 | **Fawahish** | Adult and immodest content, and infrastructure built for it | Exploitation, addiction by design |
 | **Zulm** | Tracking without consent, exploitation, engagement loops hard to leave | Open-ended on purpose. The catch-all |
@@ -77,6 +81,18 @@ analysis. Authoring, configuring, uploading or QAing one of those items is the w
 
 This gets missed constantly and it is usually the whole difference.
 
+## The two-audiences tell
+
+If the same fact reaches a crawler, an auditor, a regulator or an accountant one way and
+the customer another way, that gap is the finding. You do not need to judge the feature:
+whoever built it already decided which audience gets the accurate version.
+
+It shows up as structured data kept scrupulously honest while the number on the page is
+the flattering one, a disclosure that is complete in the export and absent in the UI, or a
+figure that is exact in the ledger and rounded in the customer's favour on screen. It
+usually carries a comment saying why, because the gap has to be explained to the next
+engineer. Writing that comment is the moment to stop, not the moment to feel careful.
+
 ## Verdicts
 
 - **Green.** No category, or too remote to be a real question. Proceed.
@@ -101,8 +117,13 @@ anything red has a permissible alternative reaching the same business outcome.
 **Given a branch, diff or PR.** Read what the code does, not what files are called. Use
 `git diff <base>...HEAD`. Look for interest arithmetic, randomised payouts, countdown
 timers and stock counts that are not real, fees absent from the UI, auto-renew defaults,
-tracking calls. Report per file. Then say what you **could not** see: configuration,
-seeded data, feature flags. A review hiding its blind spots is worse than none.
+tracking calls, and reviews or ratings that get filtered, replaced or hidden. Read the
+tests too: a green suite can pin the wrong behaviour in place, and its assertions tell you
+what the author decided was correct. Count the blast radius before you characterise the
+intent, and report the number even when it weakens your case, because a rule that hides
+mostly good reviews is still misattribution but it is not a scheme. Report per file. Then
+say what you **could not** see: configuration, seeded data, feature flags. A review hiding
+its blind spots is worse than none.
 
 **Given a client or contract.** Map it: the core business, how much of the work touches a
 category, whether that part can be carved out, what to negotiate up front. Then stop.

@@ -25,8 +25,9 @@ description: >-
   task involves lending, interest, APR, credit or financing; gambling, betting, prize
   draws or loot boxes; alcohol, tobacco or other intoxicants; adult or immodest content;
   devotional or religious objects; deceptive commerce such as hidden fees, fake scarcity,
-  fake reviews or dark patterns; or tracking and engagement mechanics built to be hard to
-  leave. Also use when asked "should I build this", "is this halal", "is this haram",
+  fake reviews or dark patterns; suppressing, replacing or re-attributing real reviews and
+  ratings; or tracking and engagement mechanics built to be hard to leave. Also use when
+  asked "should I build this", "is this halal", "is this haram",
   when asked to review a plan, spec, branch or contract against that boundary, or when
   the user seems uneasy about a task without saying why. It raises the question and
   reasons it through; it never decides for the user.
