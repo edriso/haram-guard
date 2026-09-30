@@ -24,7 +24,8 @@ description: >-
   boundary (Islamic halal/haram rules, or any conscience line they have set). Use when a
   task involves lending, interest, APR, credit or financing; gambling, betting, prize
   draws or loot boxes; alcohol, tobacco or other intoxicants; adult or immodest content;
-  devotional or religious objects; deceptive commerce such as hidden fees, fake scarcity,
+  devotional or religious objects; fortune-telling, astrology, horoscopes, tarot, or items
+  sold as bringing luck, protection or healing; deceptive commerce such as hidden fees, fake scarcity,
   fake reviews or dark patterns; suppressing, replacing or re-attributing real reviews and
   ratings; or tracking and engagement mechanics built to be hard to leave. Also use when
   asked "should I build this", "is this halal", "is this haram",

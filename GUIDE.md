@@ -41,10 +41,16 @@ user, and that is how it makes money", look closer even when no category matched
 | **Khamr** | Alcohol, tobacco, intoxicants: storefronts, ads, delivery, age-gate bypasses | Documented at length |
 | **Fawahish** | Adult and immodest content, and infrastructure built for it | Exploitation, addiction by design |
 | **Zulm** | Tracking without consent, exploitation, engagement loops hard to leave | Open-ended on purpose. The catch-all |
+| **Kahana** | Fortune-telling, astrology and horoscopes, tarot, and objects sold as bringing luck, protection or healing | Money and decisions spent on a promise nobody can keep |
 | **Devotional objects** | Producing or configuring objects used in worship | None claimed |
 
 The last row rests on no harm argument and should not pretend to. If it is not part of
 the user's line, drop it.
+
+With kahana the object is rarely the category; the claim made for it usually is. A
+gemstone is jewelry and a pendant shaped like a star is a shape. The same stone sold as
+bringing luck, or the same pendant sold as reading your fate, is the claim. Read the copy
+the customer sees, not the product type.
 
 ## "I only built the form"
 
@@ -80,6 +86,10 @@ to someone else, or writing the check that proves that person's run happened, ar
 analysis. Authoring, configuring, uploading or QAing one of those items is the work.
 
 This gets missed constantly and it is usually the whole difference.
+
+A keyword count overstates. Words mean different things in different trades: in jewelry a
+charm is a small pendant, and "healing" in memorial copy is about grief. Read each hit in
+context and report the count you have left after reading, not the raw matches.
 
 ## The two-audiences tell
 
@@ -147,7 +157,7 @@ map to ask a good question.
 
 Verified against the source. Qur'an is Dr. Mustafa Khattab, The Clear Quran, via
 quran.com. Cooperation: 5:2. Riba: 2:275, and Sahih Muslim from Jabir for the recorder.
-Khamr and maysir: 5:90. Gharar and ghish: Sahih Muslim. Zulm: hadith qudsi in Sahih
+Khamr, maysir, and drawing lots for decisions (kahana): 5:90. Gharar and ghish: Sahih Muslim. Zulm: hadith qudsi in Sahih
 Muslim from Abu Dharr. Fawahish: 17:32. Doubtful matters: Nawawi's sixth, from an-Nu'man
 ibn Bashir, in Bukhari and Muslim, whose working form is: **if it keeps nagging, that is
 information.**
