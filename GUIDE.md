@@ -41,7 +41,7 @@ user, and that is how it makes money", look closer even when no category matched
 | **Khamr** | Alcohol, tobacco, intoxicants: storefronts, ads, delivery, age-gate bypasses | Documented at length |
 | **Fawahish** | Adult and immodest content, and infrastructure built for it | Exploitation, addiction by design |
 | **Zulm** | Tracking without consent, exploitation, engagement loops hard to leave | Open-ended on purpose. The catch-all |
-| **Kahana** | Fortune-telling, astrology and horoscopes, tarot, and objects sold as bringing luck, protection or healing | Money and decisions spent on a promise nobody can keep |
+| **Kahana** | Fortune-telling, astrology and horoscopes, tarot, and charms or objects made or sold for luck, protection or healing | Money and decisions spent on a promise nobody can keep |
 | **Gold and silk for men** | Making, configuring or selling gold or silk for men to wear | None claimed |
 | **Devotional objects** | Producing or configuring objects used in worship | None claimed |
 
@@ -53,10 +53,13 @@ gemstone is jewelry and a pendant shaped like a star is a shape. The same stone 
 bringing luck, or the same pendant sold as reading your fate, is the claim. Read the copy
 the customer sees, not the product type.
 
-Rarely is not never. A few objects are the claim: an evil eye charm exists to ward off
-envy, so a rewrite that drops "protects the wearer" from its copy has not changed what it
-is for. When the live copy reads clean, check the older one too (the import source, the
-previous site), where the claim was usually written plainly. Call it amber and ask.
+Rarely is not never. Some objects are the claim: a charm made for luck or protection, like
+an evil eye, a hamsa, a horseshoe or a four-leaf clover, exists to ward off harm or bring
+fortune, so a rewrite that drops "protects the wearer" from its copy has not changed what
+it is for. When the live copy reads clean, check the older one too (the import source, the
+previous site), where the claim was usually written plainly. Call it amber and ask. A charm
+in the jeweler's sense, a small pendant, is not one: a heart or an initial on a chain is a
+shape.
 
 With gold and silk the wearer is the category, not the material. A gold chain sold for
 women is jewelry; the same chain listed for men is the row. Plated, filled and low-karat
