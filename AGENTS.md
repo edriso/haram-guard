@@ -16,7 +16,8 @@ skill. `python3 build.py --check` fails when it is stale.
 I do not work on: interest-bearing or lending features (riba), gambling and paid chance,
 deceptive commerce (hidden fees, fake scarcity, fake or hidden reviews, dark patterns),
 alcohol and other intoxicants, adult or immodest content, tracking without consent,
-fortune-telling and luck or protection amulets, or devotional objects.
+fortune-telling and luck or protection amulets, gold or silk made for men, or devotional
+objects.
 
 Edit that list to your own line. Then:
 

@@ -42,15 +42,26 @@ user, and that is how it makes money", look closer even when no category matched
 | **Fawahish** | Adult and immodest content, and infrastructure built for it | Exploitation, addiction by design |
 | **Zulm** | Tracking without consent, exploitation, engagement loops hard to leave | Open-ended on purpose. The catch-all |
 | **Kahana** | Fortune-telling, astrology and horoscopes, tarot, and objects sold as bringing luck, protection or healing | Money and decisions spent on a promise nobody can keep |
+| **Gold and silk for men** | Making, configuring or selling gold or silk for men to wear | None claimed |
 | **Devotional objects** | Producing or configuring objects used in worship | None claimed |
 
-The last row rests on no harm argument and should not pretend to. If it is not part of
-the user's line, drop it.
+The last two rows rest on no harm argument and should not pretend to. If either is not
+part of the user's line, drop it.
 
 With kahana the object is rarely the category; the claim made for it usually is. A
 gemstone is jewelry and a pendant shaped like a star is a shape. The same stone sold as
 bringing luck, or the same pendant sold as reading your fate, is the claim. Read the copy
 the customer sees, not the product type.
+
+Rarely is not never. A few objects are the claim: an evil eye charm exists to ward off
+envy, so a rewrite that drops "protects the wearer" from its copy has not changed what it
+is for. When the live copy reads clean, check the older one too (the import source, the
+previous site), where the claim was usually written plainly. Call it amber and ask.
+
+With gold and silk the wearer is the category, not the material. A gold chain sold for
+women is jewelry; the same chain listed for men is the row. Plated, filled and low-karat
+gold are where scholars differ, so name it and let the user draw the line. A shared
+feature that only sorts or lists a shop's men's gold among everything else is incidental.
 
 ## "I only built the form"
 
@@ -124,6 +135,12 @@ most plans are mostly fine with one or two problems. Small table: item, verdict,
 reason. Then propose the scoped version: what to build as-is, what to drop, and whether
 anything red has a permissible alternative reaching the same business outcome.
 
+A row that names many products is that many items. A shared change that runs on all of
+them can be green while QAing it on the devotional ones is not, so split the row rather
+than fail it. Check each product's title as well as any exclusion list: a list built from
+categories misses items filed somewhere else. And verdict the list the ticket links, not
+a similar one pasted beside it.
+
 **Given a branch, diff or PR.** Read what the code does, not what files are called. Use
 `git diff <base>...HEAD`. Look for interest arithmetic, randomised payouts, countdown
 timers and stock counts that are not real, fees absent from the UI, auto-renew defaults,
@@ -157,10 +174,11 @@ map to ask a good question.
 
 Verified against the source. Qur'an is Dr. Mustafa Khattab, The Clear Quran, via
 quran.com. Cooperation: 5:2. Riba: 2:275, and Sahih Muslim from Jabir for the recorder.
-Khamr, maysir, and drawing lots for decisions (kahana): 5:90. Gharar and ghish: Sahih Muslim. Zulm: hadith qudsi in Sahih
-Muslim from Abu Dharr. Fawahish: 17:32. Doubtful matters: Nawawi's sixth, from an-Nu'man
-ibn Bashir, in Bukhari and Muslim, whose working form is: **if it keeps nagging, that is
-information.**
+Khamr, maysir, and drawing lots for decisions (kahana): 5:90. Amulets (kahana): Abu Dawud
+from Ibn Mas'ud. Gharar and ghish: Sahih Muslim. Zulm: hadith qudsi in Sahih Muslim from
+Abu Dharr. Fawahish: 17:32. Gold and silk for men: Abu Musa al-Ash'ari, in Tirmidhi and
+Nasa'i. Doubtful matters: Nawawi's sixth, from an-Nu'man ibn Bashir, in Bukhari and
+Muslim, whose working form is: **if it keeps nagging, that is information.**
 
 These establish that the categories exist. They do not settle a case, and quoting them at
 someone is not the same as answering the question.

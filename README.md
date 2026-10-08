@@ -7,8 +7,8 @@ builds it.
 in, including helping someone else do them.
 
 **Not Muslim? Still useful.** Most categories sit on a harm you already recognise: debt
-traps, rigged odds, deceptive pricing, exploitation. Delete the one row that does not
-apply to you and the rest is a conscience checklist with older roots than most of our
+traps, rigged odds, deceptive pricing, exploitation. Delete the two rows that rest on
+belief alone and the rest is a conscience checklist with older roots than most of our
 industry's ethics guidelines.
 
 ## The test
