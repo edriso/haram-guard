@@ -44,19 +44,22 @@ user, and that is how it makes money", look closer even when no category matched
 | **Kahana** | Fortune-telling, astrology and horoscopes, tarot, and charms or objects made or sold for luck, protection or healing | Money and decisions spent on a promise nobody can keep |
 | **Gold and silk for men** | Making, configuring or selling gold or silk for men to wear | None claimed |
 | **Devotional objects** | Producing or configuring objects used in worship | None claimed |
-| **Images of people** | Producing, editing, uploading or QAing images that show a person: product shots with models, sample or test photos, fixtures, screenshots of a page that shows one | None claimed |
+| **Awrah in images** | Producing, editing, uploading or QAing images that show a woman or girl, or a man uncovered between navel and knee: model shots, sample or test photos, fixtures, screenshots of a page that shows one | None claimed |
 
 The last three rows rest on no harm argument and should not pretend to. If any is not
 part of the user's line, drop it.
 
-With images of people the picture is the category, not the code around it. A photo
-pipeline, a crop tool or a cart that carries a shopper's upload is plumbing that never
-shows anyone, so it is green. A PR that adds, edits or asks you to look at a picture of a
-person, a girl in a test fixture or a model in a product shot, is the row, even when the
-code beside it is fine. Check the binary files in a diff as well as the code: list the
-images it adds or changes, and if the name, the PR text or the test says one shows a
-person, raise it before reviewing rather than opening it to make sure. Swap in an image
-with no person (a shape, an object, a flat colour) and the same work is green.
+With awrah in images the picture is the category, not the code around it, and not every
+person. A woman or girl is the row: a model wearing the necklace, a girl in a test
+fixture. So is a man uncovered between navel and knee; a man in a shirt and trousers is
+not. Scholars differ on a covered woman's face and hands seen without desire, so if the
+user's line is narrower than this, let them draw it. A photo pipeline, a crop tool or a
+cart that carries a shopper's upload is plumbing that never shows anyone, so it is green.
+
+Check the binary files in a diff as well as the code: list the images it adds or changes,
+and if the name, the PR text or the test says one shows a woman or an uncovered man, raise
+it before reviewing rather than opening it to make sure. Swap in an image with no person
+(a shape, an object, a flat colour) and the same work is green.
 
 With kahana the object is rarely the category; the claim made for it usually is. A
 gemstone is jewelry and a pendant shaped like a star is a shape. The same stone sold as
@@ -158,7 +161,7 @@ a similar one pasted beside it.
 `git diff <base>...HEAD`. Look for interest arithmetic, randomised payouts, countdown
 timers and stock counts that are not real, fees absent from the UI, auto-renew defaults,
 tracking calls, reviews or ratings that get filtered, replaced or hidden, and added or
-changed images that show a person. Read the
+changed images that show a woman, a girl or an uncovered man. Read the
 tests too: a green suite can pin the wrong behaviour in place, and its assertions tell you
 what the author decided was correct. Count the blast radius before you characterise the
 intent, and report the number even when it weakens your case, because a rule that hides
@@ -191,8 +194,9 @@ quran.com. Cooperation: 5:2. Riba: 2:275, and Sahih Muslim from Jabir for the re
 Khamr, maysir, and drawing lots for decisions (kahana): 5:90. Amulets (kahana): Abu Dawud
 from Ibn Mas'ud. Gharar and ghish: Sahih Muslim. Zulm: hadith qudsi in Sahih Muslim from
 Abu Dharr. Fawahish: 17:32. Gold and silk for men: Abu Musa al-Ash'ari, in Tirmidhi and
-Nasa'i. Doubtful matters: Nawawi's sixth, from an-Nu'man ibn Bashir, in Bukhari and
-Muslim, whose working form is: **if it keeps nagging, that is information.**
+Nasa'i. Lowering the gaze and not revealing adornment (awrah in images): 24:30-31, and
+Sahih Muslim from Abu Sa'id al-Khudri on not looking at another's awrah. Doubtful
+matters: Nawawi's sixth, from an-Nu'man ibn Bashir, in Bukhari and Muslim, whose working form is: **if it keeps nagging, that is information.**
 
 These establish that the categories exist. They do not settle a case, and quoting them at
 someone is not the same as answering the question.
