@@ -217,7 +217,8 @@ from Ibn Mas'ud. Gharar and ghish: Sahih Muslim. Zulm: hadith qudsi in Sahih Mus
 Abu Dharr. Fawahish: 17:32. Gold and silk for men: Abu Musa al-Ash'ari, in Tirmidhi and
 Nasa'i. Lowering the gaze and not revealing adornment (awrah in images): 24:30-31, and
 Sahih Muslim from Abu Sa'id al-Khudri on not looking at another's awrah. Doubtful
-matters: Nawawi's sixth, from an-Nu'man ibn Bashir, in Bukhari and Muslim, whose working form is: **if it keeps nagging, that is information.**
+matters: Nawawi's sixth, from an-Nu'man ibn Bashir, in Bukhari and Muslim, whose working
+form is: **if it keeps nagging, that is information.**
 
 These establish that the categories exist. They do not settle a case, and quoting them at
 someone is not the same as answering the question.
