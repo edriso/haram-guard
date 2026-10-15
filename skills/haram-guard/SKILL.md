@@ -5,7 +5,8 @@ description: >-
   boundary (Islamic halal/haram rules, or any conscience line they have set). Use when a
   task involves lending, interest, APR, credit or financing; gambling, betting, prize
   draws or loot boxes; alcohol, tobacco or other intoxicants; adult or immodest content;
-  devotional or religious objects; gold or silk jewelry or clothing for men;
+  devotional or religious objects; gold or silk jewelry or clothing for men; images of
+  people (models, test photos, fixtures or screenshots showing a person);
   fortune-telling, astrology, horoscopes, tarot, evil eye, hamsa or other luck and
   protection charms, or items sold as bringing luck, protection or healing; deceptive commerce such as hidden fees, fake scarcity,
   fake reviews or dark patterns; suppressing, replacing or re-attributing real reviews and
@@ -63,9 +64,19 @@ user, and that is how it makes money", look closer even when no category matched
 | **Kahana** | Fortune-telling, astrology and horoscopes, tarot, and charms or objects made or sold for luck, protection or healing | Money and decisions spent on a promise nobody can keep |
 | **Gold and silk for men** | Making, configuring or selling gold or silk for men to wear | None claimed |
 | **Devotional objects** | Producing or configuring objects used in worship | None claimed |
+| **Images of people** | Producing, editing, uploading or QAing images that show a person: product shots with models, sample or test photos, fixtures, screenshots of a page that shows one | None claimed |
 
-The last two rows rest on no harm argument and should not pretend to. If either is not
+The last three rows rest on no harm argument and should not pretend to. If any is not
 part of the user's line, drop it.
+
+With images of people the picture is the category, not the code around it. A photo
+pipeline, a crop tool or a cart that carries a shopper's upload is plumbing that never
+shows anyone, so it is green. A PR that adds, edits or asks you to look at a picture of a
+person, a girl in a test fixture or a model in a product shot, is the row, even when the
+code beside it is fine. Check the binary files in a diff as well as the code: list the
+images it adds or changes, and if the name, the PR text or the test says one shows a
+person, raise it before reviewing rather than opening it to make sure. Swap in an image
+with no person (a shape, an object, a flat colour) and the same work is green.
 
 With kahana the object is rarely the category; the claim made for it usually is. A
 gemstone is jewelry and a pendant shaped like a star is a shape. The same stone sold as
@@ -166,7 +177,8 @@ a similar one pasted beside it.
 **Given a branch, diff or PR.** Read what the code does, not what files are called. Use
 `git diff <base>...HEAD`. Look for interest arithmetic, randomised payouts, countdown
 timers and stock counts that are not real, fees absent from the UI, auto-renew defaults,
-tracking calls, and reviews or ratings that get filtered, replaced or hidden. Read the
+tracking calls, reviews or ratings that get filtered, replaced or hidden, and added or
+changed images that show a person. Read the
 tests too: a green suite can pin the wrong behaviour in place, and its assertions tell you
 what the author decided was correct. Count the blast radius before you characterise the
 intent, and report the number even when it weakens your case, because a rule that hides

@@ -17,7 +17,7 @@ I do not work on: interest-bearing or lending features (riba), gambling and paid
 deceptive commerce (hidden fees, fake scarcity, fake or hidden reviews, dark patterns),
 alcohol and other intoxicants, adult or immodest content, tracking without consent,
 fortune-telling and luck or protection charms (evil eye, hamsa and the like), gold or
-silk made for men, or devotional objects.
+silk made for men, devotional objects, or images of people.
 
 Edit that list to your own line. Then:
 

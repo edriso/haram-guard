@@ -24,7 +24,8 @@ description: >-
   boundary (Islamic halal/haram rules, or any conscience line they have set). Use when a
   task involves lending, interest, APR, credit or financing; gambling, betting, prize
   draws or loot boxes; alcohol, tobacco or other intoxicants; adult or immodest content;
-  devotional or religious objects; gold or silk jewelry or clothing for men;
+  devotional or religious objects; gold or silk jewelry or clothing for men; images of
+  people (models, test photos, fixtures or screenshots showing a person);
   fortune-telling, astrology, horoscopes, tarot, evil eye, hamsa or other luck and
   protection charms, or items sold as bringing luck, protection or healing; deceptive commerce such as hidden fees, fake scarcity,
   fake reviews or dark patterns; suppressing, replacing or re-attributing real reviews and
